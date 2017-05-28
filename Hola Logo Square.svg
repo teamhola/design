@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="333" height="333" viewBox="0 0 333 333">
+  <defs>
+    <path id="hola-logo-square-a" d="M31,102 L93,102 L124,302 L0,302 L31,102 Z M19.6532125,31.6532125 L73.3467875,0.653212483 L104.346788,54.3467875 L50.6532125,85.3467875 L19.6532125,31.6532125 Z M155,212 L124,12 L248,12 L217,212 L155,212 Z M155,302 L155,240 L217,240 L217,302 L155,302 Z"/>
+    <linearGradient id="hola-logo-square-b" x1="14.171%" x2="80.314%" y1="18.573%" y2="76.192%">
+      <stop offset="0%" stop-color="#006FFF"/>
+      <stop offset="100%" stop-color="#1BE6FF"/>
+    </linearGradient>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(43 15)">
+    <mask id="hola-logo-square-c" fill="#fff">
+      <use xlink:href="#hola-logo-square-a"/>
+    </mask>
+    <rect width="248" height="301" y="1" fill="url(#hola-logo-square-b)" mask="url(#hola-logo-square-c)"/>
+  </g>
+</svg>
