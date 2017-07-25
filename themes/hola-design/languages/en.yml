@@ -19,9 +19,9 @@ page:
 
 sidebar:
   docs:
-    common:
-      overall: Overall
-      color: Color
-      typography: Typography
-      logos: Logos
-      layout: Layout
+    common: Common
+    overall: Overall
+    color: Color
+    typography: Typography
+    logos: Logos
+    layout: Layout
