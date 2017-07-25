@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
+title: ¡Hola! Design
+subtitle: ¡Hola! 设计指南
 description:
-author: John Doe
+author:
 language:
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: https://design.ihola.one
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -77,4 +77,21 @@ theme: landscape
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: https://github.com/teamhola/design
+  branch: built
+  name: Holabot
+  email: email_is_not_ready_at_this_time@ihola.one
+
+asset_pipeline:
+  revisioning:
+    enable: true
+    exclude: ['sitemap.xml', 'browserconfig.xml', 'android-*.png', 'apple-*.png', 'favicon*.*', 'mstile-*.png', 'safari-*.png', '*.json']
+  clean_css:
+    enable: true
+  uglify_js:
+    enable: true
+  imagemin:
+    enable: true
+  html_minifier:
+    enable: true
