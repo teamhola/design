@@ -4,10 +4,10 @@
 
 # Site
 title: ¡Hola! Design
-subtitle: ¡Hola! 设计指南
+subtitle: 年轻、活力与梦想
 description:
-author:
-language:
+author: Team ¡Hola!
+language: en
 timezone: Asia/Shanghai
 
 # URL
@@ -72,7 +72,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: hola-design
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
