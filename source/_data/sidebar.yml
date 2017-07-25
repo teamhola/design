@@ -1,6 +1,6 @@
 docs:
   common:
-    overall: overall.html
+    overall: index.html
     color: color.html
     typography: typography.html
     logos: logos.html
