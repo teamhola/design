@@ -5,3 +5,5 @@ docs:
     typography: typography.html
     logos: logos.html
     layout: layout.html
+  speakers:
+    slides: slides.html
