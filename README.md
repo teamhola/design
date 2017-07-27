@@ -12,7 +12,7 @@ Thanks to hexo team, for their creating a theme for documents. We're using a for
 2. `npm i`
 3. Make your modifications
 4. Preview your modifications with `hexo s`
-5. Commit it
+5. Commit & psuh it 
 6. `hexo g && hexo d` (or make a PR and make the team run this after merge)
 
 ## Notice for maintainers
